@@ -1,5 +1,6 @@
 import React from 'react';
 import SmallContainer from './SmallContainer';
+import { Link } from 'react-router-dom';
 import Button from '../UI/Button';
 import Image1 from './cod.png';
 import Image2 from './pubg.png';
@@ -69,9 +70,13 @@ const Home = () => {
         </div>
       </SmallContainer>
       <div className='bottom-nav'>
-        <i class='fa-solid fa-house' style={{ color: '#000' }}></i>
+        <Link to='/'>
+          <i class='fa-solid fa-house' style={{ color: '#000' }}></i>
+        </Link>
         <i class='fa-solid fa-gamepad'></i>
-        <i class='fa-solid fa-video'></i>
+        <Link to='/safespace'>
+          <i class='fa-solid fa-video'></i>
+        </Link>
         <i class='fa-solid fa-message'></i>
         <i class='fa-solid fa-user'></i>
       </div>
