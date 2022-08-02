@@ -2,6 +2,7 @@
   text-align: center;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .App-logo {
@@ -39,9 +40,46 @@
   }
 }
 
+/* UI */
+.button {
+  padding: 0.5rem 0.8rem;
+  background-color: #572cd1;
+  border: 0;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 3.2rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottom-nav .fa-solid {
+  color: #cccccc;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* MAIN SETUP */
 h1 {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
 }
 
 a {
@@ -50,6 +88,7 @@ a {
   color: #fff;
 }
 
+/* NAVIGATION */
 nav {
   width: 100%;
   height: 5%;
@@ -83,8 +122,7 @@ nav li a:hover {
 }
 
 /* HOME */
-
-.home {
+.title {
   width: 100%;
   height: 4rem;
   background-color: black;
@@ -95,22 +133,22 @@ nav li a:hover {
   position: relative;
 }
 
-.home h1 {
+.title h1 {
   margin: 0;
 }
 
-.home a {
+.title a {
   position: absolute;
   right: 15px;
   font-size: 0.7rem;
   transition: all 0.3s ease;
 }
 
-.home a:hover {
+.title a:hover {
   color: #8568d3;
 }
 
-.home a i {
+.title a i {
   display: block;
 }
 
@@ -120,5 +158,114 @@ nav li a:hover {
   font-weight: 500;
   width: 60%;
   display: block;
+  margin: 1rem 0;
+}
+
+.small-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 1rem;
   margin-top: 1rem;
+  background-color: #f2f2f2;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.discussion h3 {
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.discussion button {
+  margin-bottom: 1rem;
+}
+
+.discussion p {
+  text-align: start;
+}
+
+.games {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.game {
+  padding: 1rem 0;
+}
+
+.game img {
+  width: 50px;
+}
+
+.game p {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.livestream {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  align-items: center;
+}
+
+.livestream button {
+  background-color: #000;
+}
+
+.livestream h3 {
+  font-size: 0.8rem;
+}
+
+.safeenv {
+  text-align: start;
+}
+
+.safeenv h2 {
+  margin-bottom: 0;
+}
+.safeenv p {
+  margin-bottom: 0;
+}
+
+.button-link {
+  padding: 0.5rem 0.8rem;
+  background-color: #572cd1;
+  border: 0;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.safe-button {
+  margin: 1rem 0;
+}
+
+.safe-button a {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* SAFE SPACE */
+.title {
+  z-index: 1;
+}
+#safe h1 {
+  font-size: 1.2rem;
+}
+
+.safeimg img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 0;
 }
