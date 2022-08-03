@@ -281,3 +281,42 @@ form {
 .livelink:hover {
   background-color: #8568d3;
 }
+
+.streamcomment {
+  background-color: #000;
+  color: #8568d3;
+  height: 2.6rem;
+  width: 100%;
+  position: absolute;
+  top: 41.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speech2 {
+  bottom: 2.7rem !important;
+}
+
+.speech3 {
+  bottom: -0.1rem !important;
+}
+
+.streamcomment input {
+  text-align: start;
+  width: 90%;
+  border: none;
+  background-color: #572cd1;
+  color: white;
+  border-radius: 2rem;
+  padding: 0.4rem 0.4rem;
+  outline: none;
+}
+
+.streamcomment > i {
+  color: #fff;
+  position: absolute;
+  right: 1.2rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}

@@ -14,7 +14,7 @@ const ListStream = (props) => {
         <small>{props.online}</small>
       </div>
       <div className='livelink'>
-        <Link to='/'>
+        <Link to='/userstream'>
           <small>Join</small>
         </Link>
       </div>

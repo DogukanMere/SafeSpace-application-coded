@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import SmallContainer from '../Home/SmallContainer';
 import './style.css';
 import ListStream from './ListStream';
 

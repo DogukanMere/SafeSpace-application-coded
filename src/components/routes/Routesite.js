@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../Home/Home';
-import Safespace from '../Safe Space/Safespace';
+import Safespace from '../SafeSpace/Safespace';
 import Navigation from '../Navigation/Navigation';
 import Welcome from '../Welcome/Welcome';
-import Golive from '../Safe Space/Golive';
-import Watchlive from '../Safe Space/Watchlive';
-import StreamList from '../Safe Space/StreamList';
+import Golive from '../SafeSpace/Golive';
+
+import StreamList from '../SafeSpace/StreamList';
+import UserStream from '../SafeSpace/UserSteam';
 
 const Routesite = () => {
   return (
@@ -18,8 +19,8 @@ const Routesite = () => {
             <Route path='/safespace' element={<Safespace />}></Route>
             <Route path='/welcome' element={<Welcome />}></Route>
             <Route path='/golive' element={<Golive />}></Route>
-            <Route path='/watchlive' element={<Watchlive />}></Route>
             <Route path='/streamlist' element={<StreamList />}></Route>
+            <Route path='/userstream' element={<UserStream />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

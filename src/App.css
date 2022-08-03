@@ -343,9 +343,6 @@ nav li a:hover {
   transition: all 0.4s ease;
 }
 
-.first-sec {
-}
-
 .second-sec:hover {
   background-color: #333333;
 }
