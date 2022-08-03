@@ -1,0 +1,195 @@
+/* First Step */
+
+.formtitle {
+  width: 22rem;
+  background-color: #572cd1;
+  color: #fff;
+}
+
+#safeoption h1 {
+  font-size: 1rem;
+}
+
+.formtitle h3 {
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.formtitle p {
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+.form label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: block;
+  padding: 0.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.form {
+  padding-bottom: 2rem;
+}
+
+.form input,
+.form select {
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: block;
+  padding: 0.5rem 0.5rem;
+  margin-left: 0.4rem;
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: #f2f2f2;
+  outline: none;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+}
+
+.form-left {
+  width: 8rem;
+  padding-left: 1rem;
+  text-align: right;
+}
+
+#firststep button {
+  position: absolute;
+  bottom: 1rem;
+  right: 8.5rem;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#firststep button:hover {
+  background-color: #8568d3;
+}
+
+.hiddencontent {
+  margin-top: 7rem;
+}
+
+#safeoption {
+  position: relative;
+}
+
+/* Second Step <LiveSession />*/
+.subject,
+.stoplive {
+  background-color: #000;
+  color: #8568d3;
+}
+
+.audience {
+  background-color: #572cd1;
+  color: #fff;
+}
+
+.subject p,
+.audience p {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0.3rem 0;
+}
+
+.stoplive {
+  height: 2.5rem;
+  width: 100%;
+  position: absolute;
+  top: 42rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stoplive a {
+  background-color: #572cd1;
+  padding: 0.4rem;
+  border-radius: 2rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.stoplive a:hover {
+  background-color: #8568d3;
+}
+
+.livemain {
+  background-color: transparent;
+  height: 35rem;
+  position: relative;
+}
+
+.left-top {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.1rem 0.7rem;
+  border-radius: 1rem;
+  left: 0.5rem;
+  top: 0.3rem;
+}
+.left-top i,
+.right-top i {
+  color: #fff;
+  font-size: 0.7rem;
+  margin-right: 0.4rem;
+}
+
+.left-top small,
+.right-top small {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 0.7rem;
+}
+
+.right-top {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.1rem 0.7rem;
+  border-radius: 1rem;
+  right: 0.5rem;
+  top: 0.3rem;
+}
+
+.right-top i {
+  color: red !important;
+}
+
+.speech {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 90%;
+  left: 3%;
+  border-radius: 2rem;
+  text-align: start;
+  padding-left: 1rem;
+  bottom: 2rem;
+}
+
+.speech span {
+  color: red;
+  font-size: 0.7rem;
+}
+
+.speech small {
+  color: #fff !important;
+  padding-left: 0.2rem;
+}
+
+.speech p {
+  margin: 0.4rem;
+}
+.speech + .speech {
+  bottom: 6rem;
+}
+
+.speech + .speech span {
+  color: rgb(39, 235, 39);
+}

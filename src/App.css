@@ -64,7 +64,7 @@
 
 .bottom-nav .fa-solid {
   color: #cccccc;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
@@ -121,6 +121,7 @@ nav ul {
 
 nav li a {
   color: white;
+  font-weight: 400;
   text-decoration: none;
   list-style: none;
   transition: all 0.3s ease;
@@ -255,6 +256,11 @@ nav li a:hover {
   color: #fff;
   font-size: 0.7rem;
   font-weight: 300;
+  transition: all 0.4s ease;
+}
+
+.button-link:hover {
+  background-color: #8568d3;
 }
 
 .safe-button {
@@ -267,7 +273,8 @@ nav li a:hover {
 }
 
 /* SAFE SPACE */
-#safe {
+#safe,
+#safeoption {
   z-index: 5 !important;
   position: relative;
 }

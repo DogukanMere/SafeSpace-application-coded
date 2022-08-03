@@ -56,14 +56,14 @@ const Safespace = () => {
       </div>
       <div className='bottom-nav'>
         <Link to='/'>
-          <i class='fa-solid fa-house'></i>
+          <i className='fa-solid fa-house'></i>
         </Link>
-        <i class='fa-solid fa-gamepad'></i>
+        <i className='fa-solid fa-gamepad'></i>
         <Link to='/safespace'>
-          <i class='fa-solid fa-video' style={{ color: '#000' }}></i>
+          <i className='fa-solid fa-video' style={{ color: '#000' }}></i>
         </Link>
-        <i class='fa-solid fa-message'></i>
-        <i class='fa-solid fa-user'></i>
+        <i className='fa-solid fa-message'></i>
+        <i className='fa-solid fa-user'></i>
       </div>
     </>
   );

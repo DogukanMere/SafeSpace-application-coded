@@ -12,9 +12,9 @@ const Home = () => {
     <div id='home'>
       <div className='title'>
         <h1>Home</h1>
-        <a href='/'>
-          <i class='fa-solid fa-arrow-right-from-bracket'></i>Logout
-        </a>
+        <Link to='/'>
+          <i className='fa-solid fa-arrow-right-from-bracket'></i>Logout
+        </Link>
       </div>
       <small className=''>Welcome Sarasadgirl!</small>
       <div className='small-container discussion'>
@@ -71,14 +71,14 @@ const Home = () => {
       </SmallContainer>
       <div className='bottom-nav'>
         <Link to='/'>
-          <i class='fa-solid fa-house' style={{ color: '#000' }}></i>
+          <i className='fa-solid fa-house' style={{ color: '#000' }}></i>
         </Link>
-        <i class='fa-solid fa-gamepad'></i>
+        <i className='fa-solid fa-gamepad'></i>
         <Link to='/safespace'>
-          <i class='fa-solid fa-video'></i>
+          <i className='fa-solid fa-video'></i>
         </Link>
-        <i class='fa-solid fa-message'></i>
-        <i class='fa-solid fa-user'></i>
+        <i className='fa-solid fa-message'></i>
+        <i className='fa-solid fa-user'></i>
       </div>
     </div>
   );
