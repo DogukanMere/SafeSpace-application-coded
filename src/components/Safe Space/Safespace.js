@@ -43,7 +43,7 @@ const Safespace = () => {
                 </Link>
               </div>
               <div className='section second-sec'>
-                <Link to='/watchlive'>
+                <Link to='/streamlist'>
                   <b>Watch Live Streams</b>
                   <small>
                     This is a place where you may support others and listen

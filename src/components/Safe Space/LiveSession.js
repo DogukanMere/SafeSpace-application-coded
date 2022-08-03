@@ -42,7 +42,7 @@ const LiveSession = (props) => {
         </div>
       </div>
       <div className='stoplive'>
-        <a href='/'>Stop Streaming</a>
+        <a href='/safespace'>Stop Streaming</a>
       </div>
     </>
   );

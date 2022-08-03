@@ -6,6 +6,7 @@ import Navigation from '../Navigation/Navigation';
 import Welcome from '../Welcome/Welcome';
 import Golive from '../Safe Space/Golive';
 import Watchlive from '../Safe Space/Watchlive';
+import StreamList from '../Safe Space/StreamList';
 
 const Routesite = () => {
   return (
@@ -18,6 +19,7 @@ const Routesite = () => {
             <Route path='/welcome' element={<Welcome />}></Route>
             <Route path='/golive' element={<Golive />}></Route>
             <Route path='/watchlive' element={<Watchlive />}></Route>
+            <Route path='/streamlist' element={<StreamList />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
