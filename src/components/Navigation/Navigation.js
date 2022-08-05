@@ -12,9 +12,6 @@ const Navigation = () => {
           <li>
             <Link to='/safespace'>Safe Space</Link>
           </li>
-          <li>
-            <Link to='/welcome'>Welcome</Link>
-          </li>
         </ul>
       </nav>
 
