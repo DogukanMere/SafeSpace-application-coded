@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LiveSession = (props) => {
   return (
@@ -42,7 +43,7 @@ const LiveSession = (props) => {
         </div>
       </div>
       <div className='stoplive'>
-        <a href='/safespace'>Stop Streaming</a>
+        <Link to='/safespace'>Stop Streaming</Link>
       </div>
     </>
   );
