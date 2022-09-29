@@ -7,5 +7,7 @@ Application helps people (users) to connect with each other virtually and play e
 ## Below there are images showing some application parts:
 
 ![SafeSpace](https://i.ibb.co/QKTK1Kg/Safe-Space1.jpg)
+
 ![SafeSpace](https://i.ibb.co/ySFwMBP/Safe-Space2.jpg)
+
 ![SafeSpace](https://i.ibb.co/0Cyp6Zd/Safe-Space3.jpg)
